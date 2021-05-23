@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "ZB-crx",
+  "description": "zb-crx chrome extension version 1",
+  "version": "0.0.2",
+  "icons": {
+    "16": "test.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
