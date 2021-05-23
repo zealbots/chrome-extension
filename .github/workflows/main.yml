@@ -1,0 +1,16 @@
+name: Build
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses : actions/checkout@v2
+            - name: Setup NodeJs
+              uses : actions/setup-node@v1
+              with: 
+                node-version: "14.x" 
+            - name: npm Setup
+              run : npm install
+            - name: Building The Extension 
+              run : npm run build
