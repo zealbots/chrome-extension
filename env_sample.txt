@@ -1,0 +1,2 @@
+REACT_APP_ZB_DAILY = <zealbots daily recommend endpoint>
+REACT_APP_ZB_FULLY = <zealbots fully recommend endpoint>
