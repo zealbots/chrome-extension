@@ -8,7 +8,7 @@ jobs:
           run : actions/checkout@v2
         - name: Setup NodeJs
           run : actions/setup-node@v1
-          with
+          with: 
             node-version: "14.x" 
         - name: npm Setup
           run : npm install
