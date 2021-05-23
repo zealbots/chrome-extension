@@ -1,0 +1,15 @@
+name: Build
+on: [push]
+    build:
+        runs-on: ubuntu-latest
+    steps:
+        - name: Checkout
+          run : actions/checkout@v2
+        - name: Setup NodeJs
+          run : actions/setup-node@v1
+          with
+            node-version: "14.x" 
+        - name: npm Setup
+          run : npm install
+        - name: Building The Extension 
+          run : npm run build
