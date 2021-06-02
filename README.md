@@ -8,7 +8,7 @@
   </a>
 </p>
 
-A simple crx that displays recommended articles in new tab page
+A simple browser extension aimed to provide recommendations of articles for researchers. As of now, it works only in Google Chrome and it is planned to extend to other browsers.
 
 ## Dependency
 
