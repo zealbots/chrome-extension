@@ -1,7 +1,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  purge: false,
   presets: [],
   darkMode: "media", // or 'media' or 'class'
   theme: {
@@ -178,6 +178,7 @@ module.exports = {
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
     },
+    caretColor: (theme) => theme("colors"),
     contrast: {
       0: "0",
       50: ".5",
@@ -188,6 +189,9 @@ module.exports = {
       200: "2",
     },
     container: {},
+    content: {
+      none: "none",
+    },
     cursor: {
       auto: "auto",
       default: "default",
@@ -831,6 +835,8 @@ module.exports = {
     "even",
     "visited",
     "checked",
+    "empty",
+    "read-only",
     "group-hover",
     "group-focus",
     "focus-within",
@@ -880,6 +886,7 @@ module.exports = {
     backgroundPosition: ["responsive"],
     backgroundRepeat: ["responsive"],
     backgroundSize: ["responsive"],
+    backgroundOrigin: ["responsive"],
     blur: ["responsive"],
     borderCollapse: ["responsive"],
     borderColor: [
