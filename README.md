@@ -8,7 +8,7 @@
   </a>
 </p>
 
-A simple browser extension aimed to provide recommendations of articles for researchers. As of now, it works only in Google Chrome and it is planned to extend to other browsers.
+A simple browser extension aimed to provide recommendations of articles for researchers. As of now, we are focussing on Google Chrome and it is planned to extend to other browsers.
 
 ## Dependency
 
